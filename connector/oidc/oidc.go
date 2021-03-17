@@ -160,7 +160,7 @@ func (c *Config) Open(id string, logger log.Logger) (conn connector.Connector, e
 		preferredUsernameKey:      c.ClaimMapping.PreferredUsernameKey,
 		emailKey:                  c.ClaimMapping.EmailKey,
 		groupsKey:                 c.ClaimMapping.GroupsKey,
-		requestParams: 						 c.RequestParams,
+		requestParams:             c.RequestParams,
 	}, nil
 }
 
